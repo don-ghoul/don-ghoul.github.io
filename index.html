@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benchmark ERS</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="content/siteCopy.js" defer></script>
+    <script src="assets/main.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" data-copy="shared.brand.name"></a>
+        <nav class="site-nav" data-copy-aria-label="shared.nav.ariaLabel">
+          <a class="nav-link" href="index.html" data-nav="home" data-copy="shared.nav.home"></a>
+          <a class="nav-link" href="about.html" data-nav="about" data-copy="shared.nav.about"></a>
+          <a class="nav-link" href="contact.html" data-nav="contact" data-copy="shared.nav.contact"></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home-page" class="container">
+      <section class="hero">
+        <div class="hero-wrap">
+          <div class="hero-content">
+            <p class="eyebrow" data-copy="home.hero.eyebrow"></p>
+            <h1 data-copy="home.hero.title"></h1>
+            <p class="hero-subhead" data-copy="home.hero.subhead"></p>
+            <div class="button-row">
+              <a class="button primary" href="contact.html" data-copy="home.hero.primaryCta"></a>
+              <a class="button secondary" href="#how-it-works" data-copy="home.hero.secondaryCta"></a>
+            </div>
+          </div>
+          <figure class="hero-media">
+            <img src="assets/img/dashboard-placeholder.svg" data-copy-alt="home.hero.imageAlt" alt="">
+          </figure>
+        </div>
+      </section>
+
+      <section class="section list-panel" aria-labelledby="problem-heading">
+        <h2 id="problem-heading" data-copy="home.problem.title"></h2>
+        <p class="section-intro" data-copy="home.problem.intro"></p>
+        <ul class="text-list" id="problem-points"></ul>
+      </section>
+
+      <section class="section list-panel" aria-labelledby="solution-heading">
+        <h2 id="solution-heading" data-copy="home.solution.title"></h2>
+        <p class="section-intro" data-copy="home.solution.intro"></p>
+        <ul class="text-list" id="solution-points"></ul>
+      </section>
+
+      <section class="section" id="how-it-works" aria-labelledby="how-heading">
+        <h2 id="how-heading" data-copy="home.howItWorks.title"></h2>
+        <ol class="steps-grid" id="how-steps"></ol>
+      </section>
+
+      <section class="section" aria-labelledby="features-heading">
+        <h2 id="features-heading" data-copy="home.features.title"></h2>
+        <p class="section-intro" data-copy="home.features.intro"></p>
+        <div class="feature-grid" id="features-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="legend-heading">
+        <h2 id="legend-heading" data-copy="home.legend.title"></h2>
+        <p class="section-intro" data-copy="home.legend.intro"></p>
+        <div class="legend-grid" id="legend-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="integrations-heading">
+        <h2 id="integrations-heading" data-copy="home.integrations.title"></h2>
+        <div class="integration-grid" id="integrations-grid"></div>
+      </section>
+
+      <section class="section list-panel" aria-labelledby="security-heading">
+        <h2 id="security-heading" data-copy="home.security.title"></h2>
+        <p class="section-intro" data-copy="home.security.intro"></p>
+        <ul class="text-list" id="security-points"></ul>
+      </section>
+
+      <section class="section" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" data-copy="home.faq.title"></h2>
+        <div class="faq-list" id="faq-list"></div>
+      </section>
+
+      <section class="cta-band" aria-labelledby="final-cta-heading">
+        <h2 id="final-cta-heading" data-copy="home.finalCta.title"></h2>
+        <p data-copy="home.finalCta.body"></p>
+        <a class="button" href="contact.html" data-copy="home.finalCta.button"></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <a class="footer-email" data-copy="shared.contact.emailLabel" data-copy-href="shared.contact.emailHref"></a>
+        <p>
+          <span data-copy="shared.footer.copyrightPrefix"></span>
+          <span data-current-year></span>
+          <span data-copy="shared.brand.name"></span>.
+          <span data-copy="shared.footer.rights"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
